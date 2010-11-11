@@ -1,0 +1,20 @@
+# -*- mode: shell-script -*-
+# Defaults for rabbithole initscript
+# sourced by /etc/init.d/rabbithole
+# installed at /etc/default/rabbithole by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS=""
+
+# Port number
+PORT="8165"
+
+# Number of worker processes
+WORKERS=1
+
+# Change this to `yes' to run this daemon
+RUN=no
