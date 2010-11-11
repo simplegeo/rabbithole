@@ -1,3 +1,12 @@
+rabbithole (0.0.2-0sg5) UNRELEASED; urgency=low
+
+  [ Wade Simmons ]
+  * bump version to 0.0.2
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Thu, 11 Nov 2010 21:10:28 +0000
+
 rabbithole (0.0.1.sg2) UNRELEASED; urgency=low
 
   * UNRELEASED
