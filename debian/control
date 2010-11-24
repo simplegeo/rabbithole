@@ -7,7 +7,7 @@ build-Depends: cdbs, debhelper (>= 7)
 Standards-Version: 3.9.1
 
 Package: rabbithole
-Depends: nodejs (>= 0.2.1), nodejs-amqp (>= 0.0.2), nodejs-connect (>= 0.2.5),
+Depends: nodejs (>= 0.2.1), nodejs-amqp (>= 0.0.2a), nodejs-connect (>= 0.2.5),
          nodejs-spark (>= 0.1.2), nodejs-underscore (>= 1.1.2),
          daemon, ${misc:Depends}
 Architecture: all
