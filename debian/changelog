@@ -1,3 +1,12 @@
+rabbithole (0.0.2-0sg10) UNRELEASED; urgency=low
+
+  [ Wade Simmons ]
+  * rabbithole depends on nodejs-underscore
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Wed, 24 Nov 2010 22:12:18 +0000
+
 rabbithole (0.0.2-0sg7) UNRELEASED; urgency=low
 
   * UNRELEASED
