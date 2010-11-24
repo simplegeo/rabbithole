@@ -1,3 +1,12 @@
+rabbithole (0.0.2-0sg12) UNRELEASED; urgency=low
+
+  [ Wade Simmons ]
+  * depend on nodejs-amqp >= 0.0.2a
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Wed, 24 Nov 2010 23:33:30 +0000
+
 rabbithole (0.0.2-0sg11) UNRELEASED; urgency=low
 
   [ Wade Simmons ]
