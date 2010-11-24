@@ -8,7 +8,8 @@ Standards-Version: 3.9.1
 
 Package: rabbithole
 Depends: nodejs (>= 0.2.1), nodejs-amqp (>= 0.0.2), nodejs-connect (>= 0.2.5),
-         nodejs-spark (>= 0.1.2), daemon, ${misc:Depends}
+         nodejs-spark (>= 0.1.2), nodejs-underscore (>= 1.1.2),
+         daemon, ${misc:Depends}
 Architecture: all
 Description: rabbithole
  Rabbithole provides a simple REST /publish endpoint for AMQP servers.
