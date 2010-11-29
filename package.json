@@ -1,7 +1,7 @@
 {
   "name": "rabbithole",
   "description": "AMQP REST interface for publishing",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Wade Simmons <wade@wades.im>",
   "main": "./lib/index.js",
   "engines": { "node": ">= 0.2.1" },
