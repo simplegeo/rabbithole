@@ -1,3 +1,12 @@
+rabbithole (0.0.3-0sg16) UNRELEASED; urgency=low
+
+  [ Wade Simmons ]
+  * check if value is a string before trying to regex it
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 30 Nov 2010 01:11:43 +0000
+
 rabbithole (0.0.3-0sg15) UNRELEASED; urgency=low
 
   [ Wade Simmons ]
