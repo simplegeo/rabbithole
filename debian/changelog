@@ -1,3 +1,13 @@
+rabbithole (0.0.3-0sg17) UNRELEASED; urgency=low
+
+  [ Wade Simmons ]
+  * fix stupid error, need to return the converted results
+  * remove console.log
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 30 Nov 2010 01:35:42 +0000
+
 rabbithole (0.0.3-0sg16) UNRELEASED; urgency=low
 
   [ Wade Simmons ]
