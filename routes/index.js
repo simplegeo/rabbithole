@@ -34,7 +34,9 @@ var convertArguments = function(args) {
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.writeHead(200);
+  res.end("rabbithole: ok\n");
+  //res.render('index', { title: 'Express' });
 });
 
 router.get('/health', function(req, res) {
