@@ -52,10 +52,10 @@ var AmqpClient = module.exports = function(config) {
 
       withClient(function(conn) {
         if (exchange === undefined) {
-          // console.log("connection.publish: ", routingKey, JSON.stringify(options), message);
+           console.log("connection.publish: ", routingKey, JSON.stringify(options), message);
           conn.publish(routingKey, message);
         } else {
-          // console.log("exchange.publish: ", exchange, routingKey, JSON.stringify(options), message);
+           console.log("exchange.publish: ", exchange, routingKey, JSON.stringify(options), message);
           var e = exchanges[exchange] || (exchanges[exchange] = conn.exchange(exchange, options));
           e.publish(routingKey, message, options);
         }
