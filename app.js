@@ -27,7 +27,7 @@ app.use(function(req, res, next) {
     // * auth array exists 
     // * first value matches the expected user 
     // * second value the expected password
-    if (!auth || auth[0] !== 'testuser' || auth[1] !== 'testpassword') {
+    if (!auth || auth[0] !== process.env.USER || auth[1] !== process.env.PASSWORD) {
         // any of the tests failed
         // send an Basic Auth request (HTTP Code: 401 Unauthorized)
         res.statusCode = 401;
