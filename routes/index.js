@@ -48,14 +48,19 @@ router.post('/publish/:exchange/:routingKey', function(req, res) {
   var urlObj = url.parse(req.url, true);
   var options = convertArguments(urlObj.query);
   options.exchange = req.params.exchange;
+  var payload = options;
+  payload['body'] = req.body;
   
-  amqpClient.publish(req.params.routingKey, req.body, options);
+  amqpClient.publish(req.params.routingKey, payload, options);
   res.writeHead(200);
   res.end("ok");
 });
 
 router.post('/publish/:queue', function(req, res) {
-  amqpClient.publish(req.params.queue, req.body);
+  var urlObj = url.parse(req.url, true);
+  var payload = convertArguments(urlObj.query);
+  payload['body'] = req.body;
+  amqpClient.publish(req.params.queue, payload);
   res.writeHead(200);
   res.end("ok");
 });
