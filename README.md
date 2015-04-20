@@ -16,8 +16,8 @@ Rabbithole provides a simple REST /publish endpoint for AMQP servers.
     chmod 755 system/rabbithole
     cp system/rabbithole /etc/init.d/rabbithole
     echo "PORT=<some port>
-       USER=<someusername>
-       PASSWORD=<somepassword>    
+    USER=<someusername>
+    PASSWORD=<somepassword>    
     " > /etc/default/rabbithole
     service rabbithole start
 
